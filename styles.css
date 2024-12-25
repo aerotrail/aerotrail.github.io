@@ -1,0 +1,178 @@
+/* Existing styling */
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: #fff;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+header {
+    background: rgba(0, 0, 0, 0); /* Slight overlay to enhance text readability */
+    color: #fff;
+    padding: 1rem 0;
+    position: relative; /* Ensure it sits on top of the background */
+}
+
+header .logo {
+    font-size: 1.5rem;
+    display: inline;
+    width: 20px;
+    text-transform: uppercase;
+    float: left;
+}
+
+header nav {
+    width: 200px;
+    float: right;
+}
+
+header .nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+
+header .nav-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    padding: 5rem 0;
+    position: relative;
+    z-index: 1;
+    margin: 15% 0 15% 0;
+}
+
+.hero .btn {
+    background: #0056b3;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 1rem;
+}
+
+/* Background styling */
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('gradient-background.webp') no-repeat center center/cover;
+    z-index: -1; /* Keep it in the background */
+    opacity: 0.9; /* Slight transparency to enhance readability */
+}
+
+/* Sections */
+.section {
+    padding: 4rem 0;
+    text-align: center;
+    background: rgba(0, 0, 0, 0); /* Optional overlay for section content */
+}
+
+.services {
+    margin: 12% 0 15% 0;
+}
+
+.pricing-tiers {
+    margin: 10% 0 15% 0;
+}
+
+.features {
+    margin: 12% 0 15% 0;
+}
+
+.services, .features, .pricing-tiers {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.service-card, .feature, .tier {
+    background: #f4f4f4;
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin: 1rem;
+    width: 30%;
+    min-width: 250px;
+    color: #333;
+}
+
+footer {
+    background: rgba(0, 0, 0, 0);
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.contact-email {
+    font-size: 1.2rem;
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-email:hover {
+    text-decoration: underline;
+}
+
+/* Styling for Service Cards */
+.service-card {
+    background: linear-gradient(135deg, rgba(50, 50, 50, 0.9), rgba(80, 80, 80, 0.9)); /* Dark-gray gradient */
+    color: #00FFCC; /* Bright teal text for contrast */
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Stronger shadow for depth */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+}
+
+.service-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); /* More pronounced hover effect */
+}
+
+/* Styling for Feature Cards */
+.feature {
+    background: linear-gradient(135deg, rgba(30, 30, 30, 0.9), rgba(60, 60, 60, 0.9)); /* Charcoal gradient */
+    color: #FFA500; /* Bright orange text for vibrancy */
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+}
+
+.feature:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+/* Styling for Pricing Tiers */
+.tier {
+    background: linear-gradient(135deg, rgba(15, 15, 15, 0.9), rgba(45, 45, 45, 0.9)); /* Black-to-dark-gray gradient */
+    color: #00FFFF; /* Light cyan for a fresh, vibrant look */
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+}
+
+.tier:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+}
+
