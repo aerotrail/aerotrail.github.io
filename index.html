@@ -4,119 +4,128 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aerotrail - Email Services</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <header>
-        <div class="container">
-            <h1 class="logo">Aerotrail</h1>
-            <nav>
-                <ul class="nav-links">
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#features">Features</a></li>
-                    <li><a href="#pricing">Pricing</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
+<body class="bg-gradient-to-r from-blue-400 via-pink-500 to-teal-500 text-white font-sans">
+    <!-- Header -->
+    <header class="bg-gray-800 bg-opacity-90 fixed w-full z-10">
+    <div class="container mx-auto flex items-center justify-between py-4 px-6">
+        <div class="flex items-center">
+            <!-- Logo Image -->
+            <img src="aerotrail-logo.png" alt="Aerotrail Logo" class="h-8 w-8 mr-2">
+            <!-- Company Name -->
+            <h1 class="text-2xl font-bold">Aerotrail</h1>
         </div>
-    </header>
+        <nav>
+            <ul class="flex space-x-6">
+                <li><a href="#services" class="hover:text-teal-300">Services</a></li>
+                <li><a href="#features" class="hover:text-teal-300">Features</a></li>
+                <li><a href="#pricing" class="hover:text-teal-300">Pricing</a></li>
+                <li><a href="#contact" class="hover:text-teal-300">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
 
     <!-- Hero Section -->
-    <section class="hero">
-        <div class="container">
-            <h2>Email Services for Startups and Beyond</h2>
-            <p>Power your business with reliable, scalable, and secure email solutions.</p>
-            <a href="#services" class="btn">Explore Services</a>
+    <section class="h-screen flex items-center justify-center text-center">
+        <div>
+            <h2 class="text-4xl font-bold mb-4">Email Services for Startups and Beyond</h2>
+            <p class="text-lg mb-8">Power your business with reliable, scalable, and secure email solutions.</p>
+            <a href="#services" class="bg-teal-500 hover:bg-teal-600 text-white py-3 px-6 rounded-lg transition">Explore Services</a>
         </div>
     </section>
 
     <!-- Services Section -->
-    <section id="services" class="section">
-        <div class="container">
-            <h2>Our Services</h2>
-            <div class="services">
-                <div class="service-card">
-                    <h3>Startup Essentials</h3>
-                    <p>Affordable email solutions tailored for growing startups.</p>
-                </div>
-                <div class="service-card">
-                    <h3>Enterprise Plans</h3>
-                    <p>Robust and scalable email systems for larger organizations.</p>
-                </div>
-                <div class="service-card">
-                    <h3>Custom Solutions</h3>
-                    <p>Bespoke email configurations to meet unique business needs.</p>
-                </div>
+    <!-- Services Section -->
+<section id="services" class="py-16">
+    <div class="container mx-auto text-center">
+        <h2 class="text-3xl font-bold mb-10">Our Services</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="p-6 rounded-lg shadow-lg backdrop-blur-md bg-opacity-20 bg-white">
+                <h3 class="text-xl font-semibold mb-4">Startup Essentials</h3>
+                <p>Affordable email solutions tailored for growing startups.</p>
+            </div>
+            <div class="p-6 rounded-lg shadow-lg backdrop-blur-md bg-opacity-20 bg-white">
+                <h3 class="text-xl font-semibold mb-4">Enterprise Plans</h3>
+                <p>Robust and scalable email systems for larger organizations.</p>
+            </div>
+            <div class="p-6 rounded-lg shadow-lg backdrop-blur-md bg-opacity-20 bg-white">
+                <h3 class="text-xl font-semibold mb-4">Custom Solutions</h3>
+                <p>Bespoke email configurations to meet unique business needs.</p>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
-    <!-- Features Section -->
-    <section id="features" class="section">
-        <div class="container">
-            <h2>Why Choose Aerotrail?</h2>
-            <div class="features">
-                <div class="feature">
-                    <h3>Secure</h3>
-                    <p>Advanced security to keep your emails safe and private.</p>
-                </div>
-                <div class="feature">
-                    <h3>Reliable</h3>
-                    <p>99.9% uptime guaranteed for uninterrupted communication.</p>
-                </div>
-                <div class="feature">
-                    <h3>Scalable</h3>
-                    <p>Solutions that grow as your business expands.</p>
-                </div>
+<!-- Features Section -->
+<section id="features" class="py-16">
+    <div class="container mx-auto text-center">
+        <h2 class="text-3xl font-bold mb-10">Why Choose Aerotrail?</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="p-6 rounded-lg shadow-lg backdrop-blur-md bg-opacity-20 bg-white">
+                <h3 class="text-xl font-semibold mb-4">Secure</h3>
+                <p>Advanced security to keep your emails safe and private.</p>
+            </div>
+            <div class="p-6 rounded-lg shadow-lg backdrop-blur-md bg-opacity-20 bg-white">
+                <h3 class="text-xl font-semibold mb-4">Reliable</h3>
+                <p>99.9% uptime guaranteed for uninterrupted communication.</p>
+            </div>
+            <div class="p-6 rounded-lg shadow-lg backdrop-blur-md bg-opacity-20 bg-white">
+                <h3 class="text-xl font-semibold mb-4">Scalable</h3>
+                <p>Solutions that grow as your business expands.</p>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
-    <!-- Pricing Section -->
-    <section id="pricing" class="section">
-        <div class="container">
-            <h2>Pricing</h2>
-            <div class="pricing-tiers">
-                <div class="tier">
-                    <h3>Basic</h3>
-                    <p>$10/month</p>
-                    <ul>
-                        <li>5 Email Accounts</li>
-                        <li>10GB Storage</li>
-                    </ul>
-                </div>
-                <div class="tier">
-                    <h3>Pro</h3>
-                    <p>$30/month</p>
-                    <ul>
-                        <li>50 Email Accounts</li>
-                        <li>50GB Storage</li>
-                    </ul>
-                </div>
-                <div class="tier">
-                    <h3>Enterprise</h3>
-                    <p>Custom Pricing</p>
-                    <ul>
-                        <li>Unlimited Accounts</li>
-                        <li>Custom Features</li>
-                    </ul>
-                </div>
+<!-- Pricing Section -->
+<section id="pricing" class="py-16">
+    <div class="container mx-auto text-center">
+        <h2 class="text-3xl font-bold mb-10">Pricing</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="p-6 rounded-lg shadow-lg backdrop-blur-md bg-opacity-20 bg-white">
+                <h3 class="text-xl font-semibold mb-4">Basic</h3>
+                <p class="text-lg font-bold">$10/month</p>
+                <ul class="mt-4 space-y-2">
+                    <li>5 Email Accounts</li>
+                    <li>10GB Storage</li>
+                </ul>
+            </div>
+            <div class="p-6 rounded-lg shadow-lg backdrop-blur-md bg-opacity-20 bg-white">
+                <h3 class="text-xl font-semibold mb-4">Pro</h3>
+                <p class="text-lg font-bold">$30/month</p>
+                <ul class="mt-4 space-y-2">
+                    <li>50 Email Accounts</li>
+                    <li>50GB Storage</li>
+                </ul>
+            </div>
+            <div class="p-6 rounded-lg shadow-lg backdrop-blur-md bg-opacity-20 bg-white">
+                <h3 class="text-xl font-semibold mb-4">Enterprise</h3>
+                <p class="text-lg font-bold">Custom Pricing</p>
+                <ul class="mt-4 space-y-2">
+                    <li>Unlimited Accounts</li>
+                    <li>Custom Features</li>
+                </ul>
             </div>
         </div>
-    </section>
+    </div>
+</section>
+
 
     <!-- Contact Section -->
-    <section id="contact" class="section">
-        <div class="container">
-            <h2>Contact Us</h2>
+    <section id="contact" class="py-16 bg-gray-800">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-10">Contact Us</h2>
             <p>Have any questions or need support? Reach out to us at:</p>
-            <p><a href="mailto:info@aerotrail.in" class="contact-email">info@aerotrail.in</a></p>
+            <p class="mt-4">
+                <a href="mailto:info@aerotrail.in" class="text-teal-400 hover:text-teal-300">info@aerotrail.in</a>
+            </p>
         </div>
     </section>
 
-    <footer>
-        <div class="container">
+    <footer class="bg-gray-900 py-6 text-center">
+        <div class="container mx-auto">
             <p>&copy; 2024 Aerotrail. All Rights Reserved.</p>
         </div>
     </footer>
