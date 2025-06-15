@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Case Study: AI Agents & RAG for Ops Insight | Aerotrail</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+  <div class="max-w-6xl mx-auto px-6 py-12">
+    <header class="mb-10 text-center">
+      <h1 class="text-4xl font-bold text-indigo-700">Case Study: AI Agents + RAG for Ops & Performance Intelligence</h1>
+      <p class="text-lg text-gray-600 mt-2">Empowering Engineering Teams with Proactive LLM-Powered Insight and Optimized Data Tooling</p>
+    </header>
+
+    <section class="mb-8">
+      <h2 class="text-2xl font-semibold text-indigo-600 mb-2">Client Context</h2>
+      <ul class="list-disc list-inside text-gray-700">
+        <li><strong>Industry:</strong> SaaS & Cloud Infrastructure</li>
+        <li><strong>Region:</strong> North America</li>
+        <li><strong>Solution Partner:</strong> Aerotrail Private Ltd.</li>
+      </ul>
+    </section>
+
+    <section class="mb-8">
+      <h2 class="text-2xl font-semibold text-indigo-600 mb-2">Challenge</h2>
+      <p class="text-gray-700">The client’s platform had growing complexity — distributed microservices, constant production noise, and slow root cause analysis. Engineering teams were inundated with dashboards and alerts, but lacked contextual recommendations or clear insights during outages and performance drifts.</p>
+    </section>
+
+    <section class="mb-8">
+      <h2 class="text-2xl font-semibold text-indigo-600 mb-2">Aerotrail’s Data Product & Solution</h2>
+      <div class="space-y-4 text-gray-700">
+        <p><strong>Agent-Oriented Architecture</strong> – We deployed a multi-agent framework that ingested observability logs, system telemetry, and anomaly signals in real-time. Using Retrieval-Augmented Generation (RAG) with a fine-tuned LLM, the system contextualized operational events across services and mapped them to known issue patterns.</p>
+        <p><strong>LLM-Powered Root Cause Identification</strong> – The core engine ran queries over structured logs, metrics, and config drift snapshots using vectorized memory and RAG retrieval. Agents generated short, actionable summaries and recommendations (e.g., rollback, scaling policy changes, reindexing suggestions).</p>
+        <p><strong>Tooling Layer in Databricks</strong> – All agent intelligence was orchestrated on Databricks, with the LLM pipeline using vector stores, Feature Store, and custom delta tables for historical context. Engineers could interact with agents via notebooks and a lightweight UI inside their existing workflows.</p>
+        <p><strong>Optimized Synthetic Data Generation</strong> – To reduce inference cost and improve generalization, we trained agents on synthetically generated issue templates, enriched with edge cases and operational metadata — saving compute and increasing resilience.</p>
+      </div>
+    </section>
+
+    <section class="mb-8">
+      <h2 class="text-2xl font-semibold text-indigo-600 mb-2">Key Outcomes</h2>
+      <ul class="list-disc list-inside text-gray-700">
+        <li>📉 60% reduction in MTTR (Mean Time to Resolution)</li>
+        <li>📋 Over 150 issue patterns enriched and indexed through RAG</li>
+        <li>💡 Proactive recommendations helped prevent 4 critical outages in 3 months</li>
+        <li>💰 35% reduction in LLM usage costs via synthetic data tuning</li>
+        <li>🧠 Agents integrated into Databricks notebooks for contextual engineering support</li>
+      </ul>
+    </section>
+
+    <section class="mb-12">
+      <h2 class="text-2xl font-semibold text-indigo-600 mb-2">Conclusion</h2>
+      <p class="text-gray-700">Aerotrail’s LLM-powered agent framework allowed the client to shift from reactive troubleshooting to proactive ops intelligence. By embedding insights directly into engineers’ daily workflows and reducing the cost of intelligence through synthetic data generation, we enabled scalable, explainable, and cost-efficient production monitoring and support.</p>
+    </section>
+
+    <footer class="text-center text-sm text-gray-500">
+      &copy; 2025 Aerotrail Private Ltd. All rights reserved. | <a href="mailto:info@aerotrail.in" class="text-indigo-500 hover:underline">info@aerotrail.in</a>
+    </footer>
+  </div>
+
+</body>
+</html>
