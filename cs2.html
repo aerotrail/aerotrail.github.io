@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Case Study: End-to-End ML with Databricks | Aerotrail</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+  <div class="max-w-6xl mx-auto px-6 py-12">
+    <header class="mb-10 text-center">
+      <h1 class="text-4xl font-bold text-indigo-700">Case Study: End-to-End Machine Learning with Databricks</h1>
+      <p class="text-lg text-gray-600 mt-2">Operationalizing ML at Scale with Feature Store, SparkML, and MLflow</p>
+    </header>
+
+    <section class="mb-8">
+      <h2 class="text-2xl font-semibold text-indigo-600 mb-2">Client Overview</h2>
+      <ul class="list-disc list-inside text-gray-700">
+        <li><strong>Industry:</strong> Financial Services</li>
+        <li><strong>Region:</strong> India & Europe</li>
+        <li><strong>Partner:</strong> Aerotrail Private Ltd.</li>
+      </ul>
+    </section>
+
+    <section class="mb-8">
+      <h2 class="text-2xl font-semibold text-indigo-600 mb-2">Business Need</h2>
+      <p class="text-gray-700">The client wanted to streamline and scale their machine learning pipeline — from data ingestion to real-time predictions — for fraud detection use cases. Their existing stack lacked consistency, reusability, and traceability across models and datasets.</p>
+    </section>
+
+    <section class="mb-8">
+      <h2 class="text-2xl font-semibold text-indigo-600 mb-2">Solution Design</h2>
+      <div class="space-y-4 text-gray-700">
+        <p><strong>Collaborative Data Preparation</strong> – Raw transactional and user data were cleaned and enriched using Delta Live Tables. Features were engineered using PySpark and registered in the <strong>Databricks Feature Store</strong> for reuse across teams and experiments.</p>
+        <p><strong>Model Development</strong> – Models were trained using <strong>SparkML pipelines</strong> and hyperparameter tuning was managed via grid search in parallel compute environments. All model versions and metrics were tracked using <strong>MLflow</strong>.</p>
+        <p><strong>MLOps Practices</strong> – Automated CI/CD pipelines were set up to retrain models based on new features or data drift signals. Staging and production environments were governed using MLflow model registry and approvals.</p>
+        <p><strong>Deployment</strong> – Final models were deployed as REST endpoints via Databricks serving, with real-time scoring integrated into the client’s fraud detection system. Monitoring tools alerted on latency, throughput, and model confidence thresholds.</p>
+      </div>
+    </section>
+
+    <section class="mb-8">
+      <h2 class="text-2xl font-semibold text-indigo-600 mb-2">Results & Benefits</h2>
+      <ul class="list-disc list-inside text-gray-700">
+        <li>🚀 70% reduction in model deployment time (from 2 weeks to 2 days)</li>
+        <li>🔁 Features reused across 5+ model families using Feature Store</li>
+        <li>🔍 100% auditability of experiments and models via MLflow tracking</li>
+        <li>⚙️ Real-time scoring latency reduced to &lt;300ms</li>
+        <li>📈 Teams adopted continuous model monitoring and A/B testing practices</li>
+      </ul>
+    </section>
+
+    <section class="mb-12">
+      <h2 class="text-2xl font-semibold text-indigo-600 mb-2">Conclusion</h2>
+      <p class="text-gray-700">Aerotrail delivered a scalable and repeatable MLOps foundation using the Databricks platform. The client now has a unified system to build, deploy, monitor, and govern ML models — enabling faster innovation and robust fraud prevention.</p>
+    </section>
+
+    <footer class="text-center text-sm text-gray-500">
+      &copy; 2025 Aerotrail Private Ltd. All rights reserved. | <a href="mailto:info@aerotrail.in" class="text-indigo-500 hover:underline">info@aerotrail.in</a>
+    </footer>
+  </div>
+
+</body>
+</html>
