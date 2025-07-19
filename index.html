@@ -10,21 +10,12 @@
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZC2CNMWW0K"></script>
   <style>
     .aerotrail-bg {
-      /* Path to your background image */
       background-image: url("background-aerotrail.png");
-    
-      /* Make it cover the element */
       background-size: cover;
-    
-      /* Center the image */
       background-position: center;
-    
-      /* Prevent tiling */
       background-repeat: no-repeat;
-    
-      /* Optional: ensure it fills the viewport */
       min-height: 100vh;
-  }
+    }
   </style>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -43,8 +34,7 @@
       </div>
       <nav>
         <ul class="flex space-x-6">
-          <li><a href="#insights" class="hover:text-indigo-300">Insights</a></li>
-          <li><a href="#automation" class="hover:text-indigo-300">Automation</a></li>
+          <li><a href="#products" class="hover:text-indigo-300">Products</a></li>
           <li><a href="#contact" class="hover:text-indigo-300">Contact</a></li>
         </ul>
       </nav>
@@ -61,34 +51,38 @@
       </p>
     </section>
 
-    <!-- Horizontal Sections -->
-    <main class="flex items-start justify-center flex-row w-full space-x-6">
-      <!-- Insights Section -->
-      <section id="insights" class="flex-1 py-8 text-center bg-gray-800 bg-opacity-80 rounded-lg shadow-lg flex flex-col justify-between min-h-[330px]">
-        <div class="container mx-auto">
-          <h2 class="text-3xl font-bold mb-6">Insights</h2>
-          <p class="text-lg italic">
-            Deliver actionable insights through real-time dashboards, predictive models, and synthetic data generation.
-          </p>
-        </div>
-        <div>
-          <img src="data-driven-insights.png" alt="Insights Icon" class="h-60 w-60 mx-auto mt-4 rounded-full" />
-        </div>
-      </section>
+    <!-- Products Section -->
+    <!-- Products Summary Section -->
+<section id="products" class="w-full max-w-6xl py-16 px-6 bg-gray-800 bg-opacity-80 rounded-lg shadow-lg text-white mb-12">
+  <h2 class="text-3xl font-bold text-center mb-10">Explore Our Products</h2>
 
-      <!-- Automation Section -->
-      <section id="automation" class="flex-1 py-8 text-center bg-gray-800 bg-opacity-80 rounded-lg shadow-lg flex flex-col justify-between min-h-[330px]">
-        <div class="container mx-auto">
-          <h2 class="text-3xl font-bold mb-6">Automation</h2>
-          <p class="text-lg italic">
-            From ETL to model deployment, orchestrate end-to-end workflows with quality controls and machine learning pipelines.
-          </p>
-        </div>
-        <div>
-          <img src="automation-and-integration.png" alt="Automation Icon" class="h-60 w-60 mx-auto mt-4 rounded-full" />
-        </div>
-      </section>
-    </main>
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+    <!-- AirworthyTrail Card -->
+    <div class="bg-gray-700 rounded-lg shadow-md p-6 flex flex-col items-center text-center">
+      <img src="airworthytrail-image.png" alt="AirworthyTrail" class="w-48 h-48 object-cover rounded-md mb-4" />
+      <h3 class="text-xl font-semibold mb-2">AirworthyTrail</h3>
+      <p class="mb-4 text-sm">
+        Accelerate certification with intelligent automation, aviation-grade datasets, and domain-tuned LLMs.
+      </p>
+      <a href="products.html#airworthytrail" class="mt-auto bg-indigo-500 hover:bg-indigo-600 text-white font-medium py-2 px-4 rounded transition">
+        Learn More →
+      </a>
+    </div>
+
+    <!-- SynthTrail Card -->
+    <div class="bg-gray-700 rounded-lg shadow-md p-6 flex flex-col items-center text-center">
+      <img src="synthtrail-image.png" alt="SynthTrail" class="w-48 h-48 object-cover rounded-md mb-4" />
+      <h3 class="text-xl font-semibold mb-2">SynthTrail</h3>
+      <p class="mb-4 text-sm">
+        Generate structured, unstructured, and time-series synthetic data—risk-free, scalable, and human-first.
+      </p>
+      <a href="products.html#synthtrail" class="mt-auto bg-indigo-500 hover:bg-indigo-600 text-white font-medium py-2 px-4 rounded transition">
+        Learn More →
+      </a>
+    </div>
+  </div>
+</section>
+
   </div>
 
   <!-- Footer -->
