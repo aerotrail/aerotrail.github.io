@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Our Products – Aerotrail</title>
+  <link rel="icon" type="image/png" href="aerotrail-new-logo.png">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .aerotrail-bg {
+      background-image: url("background-aerotrail.png");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      min-height: 100vh;
+    }
+  </style>
+</head>
+<body class="aerotrail-bg font-['Futura','Trebuchet_MS','Arial',sans-serif] text-white min-h-screen flex flex-col">
+
+  <!-- Header -->
+  <header class="bg-gray-900 bg-opacity-90 fixed w-full z-10">
+    <div class="container mx-auto flex items-center justify-between py-4 px-6">
+      <div class="flex items-center">
+        <img src="aerotrail-new-logo.png" alt="Aerotrail Logo" class="h-16 w-16 mr-2 rounded-full" />
+        <h1 class="text-2xl font-bold">Aerotrail - The Data Intelligence Enabler</h1>
+      </div>
+      <nav>
+        <ul class="flex space-x-6">
+          <li><a href="index.html" class="hover:text-indigo-300">Home</a></li>
+          <li><a href="#airworthytrail" class="hover:text-indigo-300">AirworthyTrail</a></li>
+          <li><a href="#synthtrail" class="hover:text-indigo-300">SynthTrail</a></li>
+          <li><a href="#contact" class="hover:text-indigo-300">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="flex-grow pt-28 px-6 max-w-5xl mx-auto">
+    <!-- Page Title -->
+    <section class="text-center mb-12">
+      <h2 class="text-4xl font-bold mb-4" style="color:#c889c1;">Our Products</h2>
+      <p class="text-lg text-gray-300">Intelligent platforms for faster certification and safer AI.</p>
+    </section>
+
+    <!-- AirworthyTrail -->
+    <section id="airworthytrail" class="mb-16 bg-gray-800 bg-opacity-90 p-6 rounded-lg shadow-md">
+      <div class="flex flex-col md:flex-row items-center">
+        <div class="md:w-1/2 mb-6 md:mb-0 md:pr-6">
+          <img src="airworthytrail-image.png" alt="AirworthyTrail Product" class="w-full rounded-lg shadow" />
+        </div>
+        <div class="md:w-1/2 text-left">
+          <h3 class="text-2xl font-semibold text-indigo-300 mb-4">AirworthyTrail — Your Fast-Track to Smarter, Safer Certification</h3>
+          <p class="mb-3">In aviation, airworthiness is more than compliance — it's a contract of trust with every passenger.</p>
+          <p class="mb-3">AirworthyTrail combines aviation-grade datasets and a domain-tuned LLM to help engineers and program managers answer certification questions in seconds. Avoid rework, reduce delays, and fly with confidence.</p>
+          <p class="mb-3"><strong>Partners:</strong> OEMs, MROs, eVTOL innovators, and advanced air mobility startups.</p>
+          <p class="mb-3">Join early to receive enriched datasets, dedicated onboarding, and roadmap input.</p>
+          <p class="italic">Book a demo at <a href="mailto:info@aerotrail.in" class="text-indigo-400 underline hover:text-indigo-300">info@aerotrail.in</a></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SynthTrail -->
+    <section id="synthtrail" class="mb-16 bg-gray-800 bg-opacity-90 p-6 rounded-lg shadow-md">
+      <div class="flex flex-col md:flex-row-reverse items-center">
+        <div class="md:w-1/2 mb-6 md:mb-0 md:pl-6">
+          <img src="synthtrail-image.png" alt="SynthTrail Product" class="w-full rounded-lg shadow" />
+        </div>
+        <div class="md:w-1/2 text-left">
+          <h3 class="text-2xl font-semibold text-indigo-300 mb-4">SynthTrail — Synthetic Data, Built Human-First</h3>
+          <p class="mb-3">SynthTrail helps you generate privacy-safe synthetic data—structured, unstructured, and time-series—with high fidelity and full control.</p>
+          <p class="mb-3">It auto-profiles your data, learns relationships, and generates synthetic versions that preserve utility while ensuring compliance.</p>
+          <p class="mb-3">A visual dashboard compares real vs. synthetic data, helping you build trust before deploying to analytics or ML pipelines.</p>
+          <p class="italic">Interested? Let’s talk at <a href="mailto:info@aerotrail.in" class="text-indigo-400 underline hover:text-indigo-300">info@aerotrail.in</a></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer id="contact" class="py-4 text-center bg-gray-900 bg-opacity-90">
+    <div class="container mx-auto">
+      <p class="text-lg mb-1">
+        Get in touch: <a href="mailto:info@aerotrail.in" class="text-indigo-400 hover:text-indigo-300 underline">info@aerotrail.in</a>
+      </p>
+      <p class="text-sm text-gray-400">
+        &copy; 2025 Aerotrail Private Ltd. All rights reserved.
+      </p>
+    </div>
+  </footer>
+</body>
+</html>
