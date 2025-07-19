@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Why AirworthyTrail Changes the Game – Aerotrail Blog</title>
+  <link rel="icon" type="image/png" href="../aerotrail-new-logo.png">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .aerotrail-bg {
+      background-image: url("../background-aerotrail.png");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      min-height: 100vh;
+    }
+  </style>
+</head>
+<body class="aerotrail-bg font-['Futura','Trebuchet_MS','Arial',sans-serif] text-white min-h-screen flex flex-col">
+
+  <!-- Header -->
+  <header class="bg-gray-900 bg-opacity-90 fixed w-full z-10">
+    <div class="container mx-auto flex items-center justify-between py-4 px-6">
+      <div class="flex items-center">
+        <img src="../aerotrail-new-logo.png" alt="Aerotrail Logo" class="h-16 w-16 mr-2 rounded-full" />
+        <h1 class="text-2xl font-bold">Aerotrail</h1>
+      </div>
+      <nav>
+        <ul class="flex space-x-6">
+          <li><a href="../index.html#products" class="hover:text-indigo-300">Products</a></li>
+          <li><a href="../blog.html" class="hover:text-indigo-300">Blog</a></li>
+          <li><a href="../resources.html" class="hover:text-indigo-300">Resources</a></li>
+          <li><a href="../index.html#contact" class="hover:text-indigo-300">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Blog Content -->
+  <main class="flex-grow pt-28 px-6 max-w-4xl mx-auto">
+    <!-- Blog Header -->
+    <article class="mb-16 bg-gray-800 bg-opacity-90 p-8 rounded-lg shadow-md">
+      <h1 class="text-4xl font-bold mb-4 text-indigo-300">Why AirworthyTrail Changes the Game for Certification Engineers</h1>
+      <p class="text-sm text-gray-400 mb-6">Published by Aerotrail · Linked to <a href="../products.html#airworthytrail" class="text-indigo-400 underline hover:text-indigo-300">AirworthyTrail</a></p>
+      <img src="../airworthytrail-image.png" alt="AirworthyTrail Screenshot" class="w-full rounded-lg mb-6 shadow" />
+
+      <!-- Blog Body -->
+      <p class="mb-4">
+        In aviation, certification isn’t a milestone—it’s a marathon. For Designated Engineering Representatives (DERs), safety engineers, and program managers, proving airworthiness means not just meeting regulations, but demonstrating traceable, data-backed decisions at every stage of aircraft development.
+      </p>
+      <p class="mb-4">
+        That’s where <strong>AirworthyTrail</strong> steps in. Built specifically for the complexities of aircraft certification, AirworthyTrail combines <strong>aviation-grade datasets</strong> with a <strong>domain-tuned large language model (LLM)</strong> to help you search, reason, and act faster than ever before.
+      </p>
+
+      <h2 class="text-2xl font-semibold mt-8 mb-4 text-indigo-300">From Static Docs to Smart Guidance</h2>
+      <p class="mb-4">
+        Traditional compliance workflows rely heavily on static documents—certification plans, test reports, trace matrices—and expert tribal knowledge to make sense of them. AirworthyTrail transforms these into queryable knowledge. Ask natural language questions like:
+      </p>
+      <ul class="list-disc list-inside mb-4">
+        <li>“Which design changes impact DO-178C traceability for this software revision?”</li>
+        <li>“What are the historical failure modes for flap actuation systems?”</li>
+        <li>“Which requirements does this STC modification affect?”</li>
+      </ul>
+      <p class="mb-4">
+        Behind the scenes, the platform scans structured data, technical references, and historic certification projects to return trustworthy, context-aware answers—in seconds.
+      </p>
+
+      <h2 class="text-2xl font-semibold mt-8 mb-4 text-indigo-300">Data Confidence + Decision Speed</h2>
+      <p class="mb-4">
+        Certification is a race against time. Rework due to missing links, stale documentation, or missed standards creates risk and cost. AirworthyTrail helps teams:
+      </p>
+      <ul class="list-disc list-inside mb-4">
+        <li>Accelerate documentation review and impact analysis</li>
+        <li>Trace every requirement to a specific test, code line, or system update</li>
+        <li>Highlight gaps or inconsistencies in certification artifacts</li>
+      </ul>
+      <p class="mb-4">
+        The result? Less back-and-forth with regulators. Fewer late surprises. And a team that’s empowered to make fast, confident decisions.
+      </p>
+
+      <h2 class="text-2xl font-semibold mt-8 mb-4 text-indigo-300">Built with DERs, for DERs</h2>
+      <p class="mb-4">
+        AirworthyTrail was developed in collaboration with experienced DERs, aerospace engineers, and compliance leads. From terminology to workflow, the interface speaks your language—and supports your process.
+      </p>
+      <p class="mb-4">
+        Whether you’re launching a clean-sheet aircraft, modifying a legacy platform, or supporting eVTOL certification, AirworthyTrail helps you stay ahead of the curve and out of the audit spiral.
+      </p>
+
+      <p class="mt-6 italic">
+        Want to learn more or schedule a pilot program? Reach us at 
+        <a href="mailto:info@aerotrail.in" class="text-indigo-400 underline hover:text-indigo-300">info@aerotrail.in</a>
+      </p>
+    </article>
+  </main>
+
+  <!-- Footer -->
+  <footer class="py-4 text-center bg-gray-900 bg-opacity-90">
+    <div class="container mx-auto">
+      <p class="text-sm text-gray-400">
+        &copy; 2025 Aerotrail Private Ltd. All rights reserved.
+      </p>
+    </div>
+  </footer>
+</body>
+</html>
