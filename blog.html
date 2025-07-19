@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Blog – Aerotrail</title>
+  <link rel="icon" type="image/png" href="aerotrail-new-logo.png">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .aerotrail-bg {
+      background-image: url("background-aerotrail.png");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      min-height: 100vh;
+    }
+  </style>
+</head>
+<body class="aerotrail-bg font-['Futura','Trebuchet_MS','Arial',sans-serif] text-white min-h-screen flex flex-col">
+
+  <!-- Header -->
+  <header class="bg-gray-900 bg-opacity-90 fixed w-full z-10">
+    <div class="container mx-auto flex items-center justify-between py-4 px-6">
+      <div class="flex items-center">
+        <img src="aerotrail-new-logo.png" alt="Aerotrail Logo" class="h-16 w-16 mr-2 rounded-full" />
+        <h1 class="text-2xl font-bold">Aerotrail</h1>
+      </div>
+      <nav>
+        <ul class="flex space-x-6">
+          <li><a href="index.html#products" class="hover:text-indigo-300">Products</a></li>
+          <li><a href="blog.html" class="hover:text-indigo-300">Blog</a></li>
+          <li><a href="resources.html" class="hover:text-indigo-300">Resources</a></li>
+          <li><a href="index.html#contact" class="hover:text-indigo-300">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="flex-grow pt-28 px-6 max-w-4xl mx-auto">
+    <section class="text-center mb-12">
+      <h2 class="text-4xl font-bold mb-4" style="color:#c889c1;">Aerotrail Blog</h2>
+      <p class="text-lg text-gray-300" style="color:#a86c6c;">Ideas, insights, and innovations from the frontier of data intelligence.</p>
+    </section>
+
+    <!-- Blog Post List -->
+    <section class="space-y-8">
+      <!-- Blog Entry 1 -->
+      <div class="bg-gray-800 bg-opacity-90 p-6 rounded-lg shadow-md">
+        <a href="blogs/blog-airworthy-intelligence.html" class="text-2xl font-semibold text-indigo-300 hover:underline">
+          Why AirworthyTrail Changes the Game for Certification Engineers
+        </a>
+        <p class="text-sm text-gray-300 mt-2">
+          Discover how Aerotrail’s AirworthyTrail platform combines aviation-grade data and LLM intelligence to accelerate compliance, reduce rework, and give DERs superpowers.
+        </p>
+      </div>
+
+      <!-- Blog Entry 2 -->
+      <div class="bg-gray-800 bg-opacity-90 p-6 rounded-lg shadow-md">
+        <a href="blogs/blog-synthetic-data-benefits.html" class="text-2xl font-semibold text-indigo-300 hover:underline">
+          The Strategic Power of Synthetic Data in AI Development
+        </a>
+        <p class="text-sm text-gray-300 mt-2">
+          Synthetic data isn’t fake—it’s foundational. Learn how SynthTrail helps teams build robust AI pipelines without risking privacy or slowing collaboration.
+        </p>
+      </div>
+
+      <!-- Blog Entry 3 -->
+      <div class="bg-gray-800 bg-opacity-90 p-6 rounded-lg shadow-md">
+        <a href="blogs/blog-automating-certification.html" class="text-2xl font-semibold text-indigo-300 hover:underline">
+          Automating the Certification Lifecycle: From Static Docs to Smart Queries
+        </a>
+        <p class="text-sm text-gray-300 mt-2">
+          Explore how natural language interfaces, structured traceability, and data integration are transforming regulatory workflows for next-gen aircraft programs.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="py-4 text-center bg-gray-900 bg-opacity-90 mt-12">
+    <div class="container mx-auto">
+      <p class="text-lg mb-1">
+        Want to contribute or request a topic? Contact us at 
+        <a href="mailto:info@aerotrail.in" class="text-indigo-400 hover:text-indigo-300 underline">info@aerotrail.in</a>.
+      </p>
+      <p class="text-sm text-gray-400">
+        &copy; 2025 Aerotrail Private Ltd. All rights reserved.
+      </p>
+    </div>
+  </footer>
+</body>
+</html>
