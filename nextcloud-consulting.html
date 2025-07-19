@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nextcloud Consulting – Aerotrail</title>
+  <link rel="icon" type="image/png" href="aerotrail-new-logo.png">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .aerotrail-bg {
+      background-image: url("background-aerotrail.png");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      min-height: 100vh;
+    }
+  </style>
+</head>
+<body class="aerotrail-bg font-['Futura','Trebuchet_MS','Arial',sans-serif] text-white min-h-screen flex flex-col">
+
+  <!-- Header -->
+  <header class="bg-gray-900 bg-opacity-90 fixed w-full z-10">
+    <div class="container mx-auto flex items-center justify-between py-4 px-6">
+      <div class="flex items-center">
+        <img src="aerotrail-new-logo.png" alt="Aerotrail Logo" class="h-16 w-16 mr-2 rounded-full" />
+        <h1 class="text-2xl font-bold">Aerotrail</h1>
+      </div>
+      <nav>
+        <ul class="flex space-x-6">
+          <li><a href="index.html#products" class="hover:text-indigo-300">Products</a></li>
+          <li><a href="blog.html" class="hover:text-indigo-300">Blog</a></li>
+          <li><a href="resources.html" class="hover:text-indigo-300">Resources</a></li>
+          <li><a href="index.html#services" class="hover:text-indigo-300">Services</a></li>
+          <li><a href="index.html#contact" class="hover:text-indigo-300">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="flex-grow pt-28 px-6 max-w-4xl mx-auto">
+    <section class="bg-gray-800 bg-opacity-90 p-8 rounded-lg shadow-md">
+      <!-- Nextcloud Icon -->
+      <img src="nextcloud-icon.png" alt="Nextcloud Icon" class="h-16 mb-4" />
+
+      <h1 class="text-4xl font-bold text-indigo-300 mb-6">Nextcloud Consulting</h1>
+      <p class="mb-4 text-gray-300">
+        Aerotrail offers complete Nextcloud consulting to help organizations embrace open-source collaboration and storage with confidence. Whether you're new to Nextcloud or scaling up your existing instance, we provide expert setup, hosting, and long-term support.
+      </p>
+
+      <h2 class="text-2xl font-semibold text-indigo-300 mt-6 mb-3">What We Offer</h2>
+      <ul class="list-disc list-inside text-sm text-gray-300 mb-4">
+        <li>Nextcloud setup and secure cloud hosting</li>
+        <li>Custom branding and configuration</li>
+        <li>User management and access control</li>
+        <li>Collaboration tools: calendar, file sharing, video calls</li>
+        <li>Data backups and disaster recovery setup</li>
+        <li>Monitoring, upgrades, and performance tuning</li>
+        <li>Integration with LDAP, SSO, and enterprise auth</li>
+        <li>Ongoing feature development and support</li>
+      </ul>
+
+      <h2 class="text-2xl font-semibold text-indigo-300 mt-6 mb-3">Why Nextcloud?</h2>
+      <p class="text-sm text-gray-300 mb-4">
+        Nextcloud gives you full control over your data with no vendor lock-in. It's trusted by governments, universities, and enterprises worldwide as a secure, private alternative to mainstream cloud platforms.
+      </p>
+
+      <h2 class="text-2xl font-semibold text-indigo-300 mt-6 mb-3">Get Started</h2>
+      <p class="text-sm text-gray-300 mb-6">
+        Interested in deploying Nextcloud for your team or enterprise? Reach out to us to schedule a consultation or request a custom deployment quote.
+      </p>
+
+      <a href="mailto:info@aerotrail.in?subject=Nextcloud%20Consulting%20Inquiry" class="bg-indigo-500 hover:bg-indigo-600 text-white font-medium py-3 px-6 rounded transition">
+        Contact Us →
+      </a>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="py-4 text-center bg-gray-900 bg-opacity-90 mt-12">
+    <div class="container mx-auto">
+      <p class="text-sm text-gray-400">
+        &copy; 2025 Aerotrail Private Ltd. All rights reserved.
+      </p>
+    </div>
+  </footer>
+</body>
+</html>

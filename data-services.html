@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Data Architecture & Pipelines – Aerotrail</title>
+  <link rel="icon" type="image/png" href="aerotrail-new-logo.png">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .aerotrail-bg {
+      background-image: url("background-aerotrail.png");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      min-height: 100vh;
+    }
+  </style>
+</head>
+<body class="aerotrail-bg font-['Futura','Trebuchet_MS','Arial',sans-serif] text-white min-h-screen flex flex-col">
+
+  <!-- Header -->
+  <header class="bg-gray-900 bg-opacity-90 fixed w-full z-10">
+    <div class="container mx-auto flex items-center justify-between py-4 px-6">
+      <div class="flex items-center">
+        <img src="aerotrail-new-logo.png" alt="Aerotrail Logo" class="h-16 w-16 mr-2 rounded-full" />
+        <h1 class="text-2xl font-bold">Aerotrail</h1>
+      </div>
+      <nav>
+        <ul class="flex space-x-6">
+          <li><a href="index.html#products" class="hover:text-indigo-300">Products</a></li>
+          <li><a href="blog.html" class="hover:text-indigo-300">Blog</a></li>
+          <li><a href="resources.html" class="hover:text-indigo-300">Resources</a></li>
+          <li><a href="index.html#services" class="hover:text-indigo-300">Services</a></li>
+          <li><a href="index.html#contact" class="hover:text-indigo-300">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="flex-grow pt-28 px-6 max-w-4xl mx-auto">
+    <section class="bg-gray-800 bg-opacity-90 p-8 rounded-lg shadow-md">
+      <!-- Icons Row -->
+      <div class="flex items-center space-x-4 mb-4">
+        <img src="databricks-icon.svg" alt="Databricks Icon" class="h-12" />
+        <img src="dremio-icon.png" alt="Dremio Icon" class="h-12" />
+      </div>
+
+      <h1 class="text-4xl font-bold text-indigo-300 mb-6">Data Architecture & Pipelines</h1>
+      <p class="mb-4 text-gray-300">
+        Aerotrail helps organizations design and automate modern data platforms—from ingestion to insight. Whether you're scaling a new AI pipeline or modernizing an old ETL system, we architect solutions using cutting-edge tools like Databricks and Dremio.
+      </p>
+
+      <h2 class="text-2xl font-semibold text-indigo-300 mt-6 mb-3">What We Deliver</h2>
+      <ul class="list-disc list-inside text-sm text-gray-300 mb-4">
+        <li>Data lakehouse architecture using Databricks & Dremio</li>
+        <li>ETL and ELT pipelines tailored to your stack</li>
+        <li>Real-time and batch processing solutions</li>
+        <li>Data quality, validation, and lineage tracking</li>
+        <li>Automation and orchestration with tools like Airflow or dbt</li>
+        <li>Seamless integration with BI, ML, and analytics platforms</li>
+      </ul>
+
+      <h2 class="text-2xl font-semibold text-indigo-300 mt-6 mb-3">Why Aerotrail?</h2>
+      <p class="text-sm text-gray-300 mb-4">
+        Our team of experienced data engineers and architects understand not just the tools—but the outcomes. We deliver scalable, maintainable pipelines that enable your data science and analytics teams to move faster, safer, and smarter.
+      </p>
+
+      <h2 class="text-2xl font-semibold text-indigo-300 mt-6 mb-3">Let's Build Your Data Platform</h2>
+      <p class="text-sm text-gray-300 mb-6">
+        Whether you're migrating to Databricks, optimizing Dremio performance, or starting fresh—Aerotrail can help. Get in touch to scope your use case.
+      </p>
+
+      <a href="mailto:info@aerotrail.in?subject=Data%20Engineering%20Inquiry" class="bg-indigo-500 hover:bg-indigo-600 text-white font-medium py-3 px-6 rounded transition">
+        Talk to a Data Expert →
+      </a>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="py-4 text-center bg-gray-900 bg-opacity-90 mt-12">
+    <div class="container mx-auto">
+      <p class="text-sm text-gray-400">
+        &copy; 2025 Aerotrail Private Ltd. All rights reserved.
+      </p>
+    </div>
+  </footer>
+</body>
+</html>
