@@ -59,6 +59,7 @@ const isRouteLink = (element) =>
  * @param {*} id The id of the content to show
  */
 const showContent = (id) => {
+  return;
   eachElement(".page", (p) => p.classList.add("hidden"));
   document.getElementById(id).classList.remove("hidden");
 };
@@ -117,7 +118,7 @@ const login = async (targetUrl) => {
 
     const options = {
       authorizationParams: {
-        redirect_uri: window.location.origin
+        redirect_uri: "https://auth.aerotrail.in" //window.location.origin
       }
     };
 
