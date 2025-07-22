@@ -6,6 +6,7 @@
   <title>Aerotrail - The Data Intelligence Enabler</title>
   <link rel="icon" type="image/png" href="aerotrail-new-logo.png">
   <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.auth0.com/js/auth0-spa-js/2.0/auth0-spa-js.production.js"></script>
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZC2CNMWW0K"></script>
   <style>
@@ -42,6 +43,9 @@
           <li><a href="blog.html" class="hover:text-indigo-300">Blog</a></li>
           <li><a href="#contact" class="hover:text-indigo-300">Contact</a></li>
         </ul>
+        <button id="btn-login" disabled="true" onclick="login()" class="ml-6 px-4 py-2 bg-indigo-500 hover:bg-indigo-600 text-white font-medium rounded transition">
+          Log in
+        </button>
       </nav>
     </div>
   </header>
