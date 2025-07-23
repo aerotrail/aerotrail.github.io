@@ -118,7 +118,8 @@ const login = async (targetUrl) => {
 
     const options = {
       authorizationParams: {
-        redirect_uri: "https://auth-58556451616.europe-west1.run.app" //window.location.origin
+        redirect_uri: "https://auth-58556451616.europe-west1.run.app", //window.location.origin
+        use_pkce: false
       }
     };
 
